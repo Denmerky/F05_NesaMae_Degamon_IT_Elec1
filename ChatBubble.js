@@ -6,7 +6,7 @@ export default function ChatBubble({ text, isMe }) {
     <View
       style={{
         alignSelf: isMe ? "flex-end" : "flex-start",
-        backgroundColor: isMe ? "#0078fe" : "#e5e5ea",
+        backgroundColor: isMe ? "white" : "#e5e5ea",
         padding: 10,
         borderRadius: 15,
         marginVertical: 5,
