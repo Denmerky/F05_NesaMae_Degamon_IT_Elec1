@@ -12,7 +12,7 @@ import ChatBubble from "./ChatBubble";
 export default function ChatScreen() {
   const [messages, setMessages] = useState([
     { id: "1", text: "syur uyst?", sender: "bot" },
-    { id: "2", text: "oki ra ems", sender: "me" },
+    { id: "2", text: "oki ra man", sender: "me" },
   ]);
   const [input, setInput] = useState("");
 
