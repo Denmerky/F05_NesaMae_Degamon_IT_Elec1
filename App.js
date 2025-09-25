@@ -2,6 +2,7 @@ import ChatScreen from './ChatScreen';
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 import CommentSection from './CommentSection'
+impot ChatBubble from './ChatBubble'
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       
       <CommentSection />
       <ChatScreen />
+      <ChatBubble />
  
     </SafeAreaView>
   );
